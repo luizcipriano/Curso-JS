@@ -18,13 +18,13 @@
            var ppais = document.querySelector('input#país')
            var res = document.querySelector('div#res')
            var ver = String(ppais.value)
-           res.innerHTML = `<p>Seu pais é ${ver}<p>`
+           res.innerText = `Seu pais é ${ver}`
             if (ver == 'Brasil') {
                 res.innerHTML = '<p> Você é Brasileiro<p>'
             } else {
                 res.innerHTML = '<p>Você é GRINGO<p>'
             }
-
+            
            
            
        } 
